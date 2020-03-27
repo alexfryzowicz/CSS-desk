@@ -1,0 +1,191 @@
+.desk {
+    position: relative;
+    width: 160vh;
+    height: 95vh;
+    margin: 20px auto;
+    background-color: #3E2723;
+    border: 7px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    display: none;
+    transition: .3s;
+    cursor: pointer;
+}
+
+/* agenda */
+img:nth-child(1) {
+    display: block;
+    width: 24%;
+    bottom: 5%;
+    left: 40%;
+}
+
+img:nth-child(1):hover {
+    width: 25%;
+    bottom: 5%;
+    left: 40%;
+    transform: rotate(10deg) translateX(30%);
+}
+
+/* key */
+img:nth-child(3) {
+    display: block;
+    width: 10%;
+    bottom: 10%;
+    right: 7%;
+    transform: rotate(40deg) translateX(50%);
+}
+
+img:nth-child(3):hover {
+    width: 11%;
+    bottom: 8%;
+    right: 3%;
+    transform: rotate(10deg) translateX(30%);
+}
+
+/* game pad */
+img:nth-child(4) {
+    display: block;
+    width: 15%;
+    bottom: 35%;
+    right: 10%;
+    transform: rotate(20deg) translateX(50%);
+}
+
+img:nth-child(4):hover {
+    width: 16%;
+    bottom: 30%;
+    right: 15%;
+    transform: rotate(0deg) translateX(50%);
+}
+
+/* keyboard */
+img:nth-child(5) {
+    display: block;
+    width: 33%;
+    margin-top: 5%;
+    transform: rotate(-25deg) translateX(50%);
+    cursor: default;
+}
+
+/* mat */
+img:nth-child(6) {
+    display: block;
+    width: 20%;
+    margin-top: 3%;
+    right: 18%;
+    transform: rotate(15deg) translateX(35%);
+    cursor: default;
+}
+
+/* mouse */
+img:nth-child(7) {
+    display: block;
+    width: 13%;
+    margin-top: 10%;
+    right: 20%;
+    transform: rotate(-20deg) translateX(50%);
+}
+
+img:nth-child(7):hover {
+    width: 14%;
+    top: 8%;
+    right: 15%;
+    transform: rotate(-80deg) translateX(50%);
+}
+
+/* dish */
+img:nth-child(8) {
+    display: block;
+    width: 23%;
+    bottom: 5%;
+    left: 5%;
+    cursor: default;
+}
+
+/* pizza */
+img:nth-child(9) {
+    display: block;
+    width: 18%;
+    bottom: 17%;
+    left: 3%;
+    transform: rotate(80deg) translateX(10%);
+}
+
+img:nth-child(9):hover {
+    width: 19%;
+    bottom: 10%;
+    left: 1%;
+    transform: rotate(1deg) translateX(50%);
+}
+
+/* usb */
+img:nth-child(10) {
+    display: block;
+    width: 7%;
+    bottom: 13%;
+    right: 11%;
+    transform: rotate(50deg) translateX(10%);
+}
+
+img:nth-child(10):hover {
+    width: 8%;
+    right: 15%;
+    transform: rotate(-40deg) translateX(40%);
+}
+
+/* coins */
+img:nth-child(11) {
+    display: block;
+    width: 5%;
+    bottom: 5%;
+    right: 15%;
+    transform: rotate(40deg) translateX(50%);
+}
+
+img:nth-child(11):hover {
+    width: 6%;
+    bottom: 0;
+    right: 16%;
+    transform: rotate(0deg) translateX(50%);
+}
+
+/* dollar */
+img:nth-child(12) {
+    display: block;
+    width: 5%;
+    bottom: 5%;
+    right: 19%;
+    transform: rotate(-40deg) translateX(50%);
+}
+
+img:nth-child(12):hover {
+    width: 6%;
+    right: 22%;
+    transform: rotate(0deg) translateX(50%);
+}
+
+.chair {
+    display: block;
+    position: absolute;
+    background-color: #1F100D;
+    border-radius: 20%;
+    border: 7px solid black;
+    width: 70vh;
+    height: 50vh;
+    top: 70%;
+    left: 33%;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.chair:hover {
+    width: 75vh;
+    top: 100%;
+    cursor: pointer;
+    transform: rotate(20deg) translateX(30%);
+}
